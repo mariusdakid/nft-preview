@@ -35,9 +35,20 @@ h4{
     margin-bottom: 1rem;
 }
 
+h4:hover{
+    color: rgb(0, 255, 247);
+    cursor: pointer;
+}
+
 .cube{
     width: 100%;
     border-radius: 6px;
+}
+
+.cube:hover{
+    background-image: url(images/icon-view.svg);
+    overflow: visible;
+    cursor: pointer;
 }
 
 p{
@@ -71,6 +82,12 @@ hr{
     gap: 0.7rem;
     font-weight: 300;
 }
+
+/* .view{
+    display: none;
+    margin-left: -62%;
+    margin-bottom: 6rem;
+} */
 
 .gem{
     width: 6px;
@@ -107,6 +124,11 @@ hr{
 
 .wsec{
     color: #fff;
+}
+
+.wsec:hover{
+    color: rgb(0, 255, 247);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
